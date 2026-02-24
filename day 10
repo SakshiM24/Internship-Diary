@@ -1,0 +1,113 @@
+-------html--------
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="calculator">
+    <h2>Calculator</h2>
+    
+    <input type="number" id="num1" placeholder="Enter first number">
+    <input type="number" id="num2" placeholder="Enter second number">
+
+    <div class="buttons">
+      <button onclick="add()">+</button>
+      <button onclick="subtract()">-</button>
+      <button onclick="multiply()">*</button>
+      <button onclick="divide()">/</button>
+    </div>
+
+    <h3 id="result">Result: </h3>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+-----css---------------
+
+
+body {
+  font-family: Arial;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.calculator {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 5px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------js-------
+
+
+
+body {
+  font-family: Arial;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.calculator {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 5px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  width: 50px;
+}
